@@ -1,5 +1,5 @@
 # Networking-Lab
-##NFS server configuration:  
+## NFS server configuration:  
 We need to install NFS packages on NFS server, install it using the following command.  
   
 [root@server ~]# yum install nfs-utils libnfsidmap  
