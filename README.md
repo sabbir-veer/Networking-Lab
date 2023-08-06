@@ -103,10 +103,10 @@ xferlog_enable=YES
 connect_from_port_20=YES  
 pam_service_name=vsftpd  
   
-# Allow local user to upload files  
+### Allow local user to upload files  
 write_enable=YES  
   
-# Enable Anonymous user to read files (no password, no username)  
+### Enable Anonymous user to read files (no password, no username)  
 anonymous_enable=YES  
 anon_root=/var/ftp  
 no_anon_password=YES  
